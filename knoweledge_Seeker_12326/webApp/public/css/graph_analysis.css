@@ -1,0 +1,281 @@
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: black;
+}
+.container{
+    margin-right: 5rem;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #009688;
+    color: #fff;
+    transition: all 0.3s;
+    padding-top: 30px;
+    position: fixed;
+    height: 100vh;    
+
+   
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+#nav navbar-nav navbar-right{
+    color: white;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background:#00897B;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid ;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #fff;
+    background:#00897B ;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color:#26A69A ;
+    background:#fff ;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+a[aria-expanded="true"]::before {
+    content: '\e260';
+}
+
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #009688;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article, a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#content {
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+    #sidebar {
+     margin-left: -250px;
+       
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+@media(min-width: 768px){
+    #sidebarCollapse{
+         display: none;
+    }
+}
+.box2{
+    padding: 4rem;
+    border-color: #009688;
+    border-style:solid;
+    border-width: 4px;
+    margin-top: 2rem;
+    margin-bottom: 50px;
+    background-color: #E0F2F1;
+}
+
+.box-in-padding{
+    padding: 3vh;
+}
+.ques-text{
+    font-size: 2.5vh;
+    font-weight: 400;
+    font-family: 'Varela Round', sans-serif;
+}
+.option-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.4vh;
+    font-weight: 100;
+}
+
+.cd-main-header {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  height: 45px;
+  width: 100%;
+    position: fixed;
+     margin-bottom: 40px;
+  background:  #009688;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+/*
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+*/
+}
+.heading-padding{
+    font-family: 'Rokkitt', serif; 
+    margin-top: 6rem;}
+
+.butt{
+    margin: 5rem;
+}
+.btn-text{
+    font-size: 3rem;
+}
+.header-btn{
+    margin-top: 7rem;
+}
+.header-btn-1{
+    background-color: skyblue;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 2rem;
+    text-align: center;
+}
+.heading{
+    margin-top: 6rem;
+     margin-left: 8rem;
+   text-align: center;
+    font-size: 4rem;
+   
+}
+.table{
+    padding: 5rem;
+    
+   
+}
+td{
+    padding-left:5rem;
+}
+.box{
+    background-color: white;
+     box-shadow: 2px 2px 2px #9E9E9E;
+    margin-top: 5rem;
+}
+.box-2{
+    background-color: white;
+     box-shadow: 2px 2px 2px #9E9E9E;
+     
+    margin-top: 5rem;
+    height: 100%;
+    }
+
+/*
+.col-container{
+     display: table;  Make the container element behave like a table 
+    width: 100%;
+}
+.col{
+     display: table-cell;
+}*/

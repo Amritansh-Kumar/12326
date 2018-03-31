@@ -1,0 +1,58 @@
+body{
+
+    background-image: linear-gradient(to right , rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)),url(../img/philosophyclass_hero.jpg);
+    background-size:cover;
+
+}
+.box{
+    background-color: white;
+    /*     box-shadow: 2px 2px 2px #9E9E9E;*/
+    padding: 5rem;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius:5%;
+    background: rgb(0,0,0,.2);
+}
+.text{
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 5rem;
+    color: #E0F2F1;
+
+}
+.in-between{
+    padding-top: 4rem;
+}
+.input-lg{
+    border-radius: 1%;
+    border-radius: 0.8rem;
+}
+.image-padding{
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+.logo-padding{
+    margin-top: 4rem;
+}
+.in-between-button{
+    margin-top: 2rem;
+}
+.btn:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); }
+
+.btn-text:link, .btn-text:visited {
+    font-size: 1.5rem;
+    color: #55c57a;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid #55c57a;
+    transition: all .2s;
+    padding: 2px; }
+
+.btn-text:hover {
+    color: aliceblue;
+    background-color: #55c57a;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px); }

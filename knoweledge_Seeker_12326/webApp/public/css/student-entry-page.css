@@ -1,0 +1,171 @@
+body{
+/*    background-color: #00BFA5;*/
+    
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+/*
+    background-image: linear-gradient(to right, #44a08d, #093637);
+background-size:cover;
+*/
+background-image:linear-gradient(to right , rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)),url(../img/Books-1920x1280.jpg);
+ background-size: cover;
+ 
+}
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #009688;
+    color: #fff;
+    transition: all 0.3s;
+    padding-top: 30px;
+    position: fixed;
+    height: 100vh;    
+
+   
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+#nav navbar-nav navbar-right{
+    color: white;
+}
+
+
+
+
+.cd-main-header {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  height: 65px;
+  width: 100%;
+    position: fixed;
+     margin-bottom: 40px;
+  background:  #26A69A;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    
+}
+@media(min-width: 768px){
+    #sidebarCollapse{
+         display: none;
+    }
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+     
+}
+a:hover{
+    display: block;
+   
+       
+}
+
+.nav {
+  /* top nav - not visible on mobile devices */
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .nav {
+    display: block;
+    float: right;
+    height: 100%;
+  }
+}
+.box{
+/*    margin-top: 10rem;*/
+}
+.heading{
+    font-size: 4rem;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 640;
+    margin-top: 10rem;
+    text-align: center;
+    color: #006064;
+    
+}
+.cd-logo {
+  float: left;
+  display: block;
+  margin: 11px 0 0 5%;
+}
+.cd-logo:hover{
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+    color: aliceblue;
+}
+.cd-logo img {
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .cd-logo {
+    margin: 8px 0 0 36px;
+      font-size: 2.5rem;
+  }
+}
+.Teacher{
+    margin: 8px 0 0 36px;
+      font-size: 2rem;
+}
+.Teacher:hover{
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+    color:black;
+    background:  #009688;
+
+}
+.box{
+    margin-top: 5rem;
+    border: black;
+    margin-left: 5rem;
+    border-radius: 2vh;
+     background: rgb(0,0,0,.2);
+    padding: 50px;
+}
+.btn1{
+    float: right;
+}
+    .btn:hover {
+  color: aliceblue;
+  background-color: #55c57a;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); }
+label{
+    color: beige;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.btn-lg2:hover{
+    background: #FF3D00;
+    
+}
+.btn-lg1:hover{
+    background: #FFB300;
+    
+}
+.padd{
+    margin-top: 5rem;
+    margin-left: 6rem;
+}
+.btn-lg2{
+    width: 188px;
+    margin-right: 5rem;
+}
+
